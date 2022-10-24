@@ -1,6 +1,5 @@
 import React, {Component, useState} from "react";
 import "./../styles/App.css";
-
 function App() {
   const [show, setShow] = useState(false)
   const handleClick = () => {
@@ -17,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
